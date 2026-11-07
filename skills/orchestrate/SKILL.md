@@ -13,6 +13,8 @@ st skills get common
 
 It says which topic guide to read for the job, and only that one is needed:
 `st skills get terminal`, `documents`, `hooks`, `orchestrate` or `worker`.
+Every command and option, as st's own `--help` gives them:
+`st skills get reference`.
 A question about state is answered by reading it: it does not need
 `st orch start` or a worker. If `$ST_RUN` is set you are a worker: read
 `st skills get worker` and report with `st worker done`.
