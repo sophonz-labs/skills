@@ -37,8 +37,9 @@ the `st` that is actually installed:
 | `st skills get hooks` | the agents' hooks, st's plugin and skills, plan limits |
 | `st skills get orchestrate` | handing work to other agents and supervising them |
 | `st skills get worker` | a worker's duties |
+| `st skills get reference` | every command and option, from st's own `--help` |
 
-The topic guides come with st 0.4.3. An older st has only `orchestrate` and
+The topic guides and the reference come with st 0.4.3. An older st has only `orchestrate` and
 `worker`, and the skills fall back to those.
 
 So the guide always matches your `st`, and these files do not go stale when
